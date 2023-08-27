@@ -1,0 +1,489 @@
+.leaflet-control-zoom.leaflet-bar.leaflet-control{
+        border:1px solid white;
+    }
+    .leaflet-control-zoom-in,
+    .leaflet-control-zoom-out {
+        background-color: darkgreen !important;
+        color: floralwhite !important;
+    }
+
+    .leaflet-bar a, .leaflet-bar a:hover{
+        border-bottom: 1px solid #fffff;
+    }
+
+.leaflet-container a.leaflet-popup-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 21px 0 0;
+    border: none;
+    text-align: center;
+    width: 18px;
+    height: 14px;
+    font: 16px/14px Tahoma, Verdana, sans-serif;
+    color: indianred;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: ghostwhite;
+    color: #333;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup.tip {
+  background-color: ghostwhite;
+}
+
+.leaflet-popup-content{
+    padding-top:10px;
+}
+
+
+
+    button.btn-maja {
+        width: 33px !important;
+        height: 32px !important;
+        !;
+        line-height: 19px;
+        background-color: darkgreen;
+        border-color: floralwhite;
+        color: white;
+    }
+
+    button.btn-maja:hover {
+        color: lightgreen !important;
+    }
+
+    .btn-group-vertical>.btn,
+    .btn-group-vertical>.btn-group {
+        width: auto;
+    }
+
+    button.unselected img{
+      filter: grayscale(100%);
+    }
+
+    .vertical-menu{
+
+    }
+
+    div.main-content{
+        margin-left:0px;
+    }
+    footer.footer{
+        left:0px;
+    }
+
+    div.extend-size i{
+      font-size: 20px;
+      margin-top:7px;
+    }
+
+    /*div.leaflet-div-icon{
+      background: transparent !important;
+      border: none;
+      min-width: 20px;
+      min-height: 20px;
+    }*/
+
+    div.data-badge {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/bus-terminal.svg');
+      background-size: 100%;
+    }
+
+    [data-badge]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 80px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      font-size: 10px;
+      background-color: blue;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+    div.data-badge-terminal {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/marker-icon-TerminalTipeA.svg');
+      background-size: 100%;
+    }
+
+    [data-badge-terminal]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 50px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      background-color: #bf1f1f;
+      font-size: 10px;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+    div.data-badge-pelabuhan {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/marker-icon-PelabuhanPenyebrangan.svg');
+      background-size: 100%;
+    }
+
+    [data-badge-pelabuhan]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 100px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      background-color: red;
+      font-size: 10px;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+    div.data-badge-uppkb {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/marker-icon-UPPKB.svg');
+      background-size: 100%;
+    }
+
+    [data-badge-uppkb]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 50px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      background-color: #bf1f1f;
+      font-size: 10px;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+    div.data-badge-wisata {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/marker-icon-Pariwisata.svg');
+      background-size: 100%;
+    }
+
+    [data-badge-wisata]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 50px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      background-color: #bf1f1f;
+      font-size: 10px;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+    div.data-badge-kuliner {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/marker-icon-Kuliner.svg');
+      background-size: 100%;
+    }
+
+    [data-badge-kuliner]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 50px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      background-color: #bf1f1f;
+      font-size: 10px;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+    div.data-badge-restarea {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/marker-icon-RestAreaTOL.svg');
+      background-size: 100%;
+    }
+
+    [data-badge-restarea]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 50px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      background-color: #bf1f1f;
+      font-size: 10px;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+    div.data-badge-posko {
+      display: inline-block;
+      min-width: 20px;
+      height: 20px;
+      vertical-align: top;
+      text-align: center;
+      line-height: 1;
+      padding: 5px;
+      background: url('https://mitradarat-fms.dephub.go.id/assets/images/marker-icon-TendaPosko.svg');
+      background-size: 100%;
+    }
+
+    [data-badge-posko]:after {
+      position: absolute;
+      right: -40px;
+      top: -8px;
+      min-width: 50px;
+      height: 16px;
+      line-height: 1;
+      padding: 2px;
+      color: #fff;
+      background-color: #bf1f1f;
+      font-size: 10px;
+      border-radius: 5px;
+      content: attr(data-badge);
+      border: solid 1px #c93a3a;
+    }
+
+
+    /*.select2-container--default.select2-container--focus .select2-selection--multiple{
+        height: 47px;
+        border: 1px solid #cccccc;
+    }*/
+
+    .select2-container--default .select2-selection--multiple.select2-selection--clearable,
+    .select2-container--default .select2-selection--multiple,
+    .select2-container--default .select2-selection--single{
+        min-height: 47px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered{
+        padding-top:9px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow{
+        top:11px;
+    }
+
+    .select2-container--default .select2-selection--multiple.select2-selection--clearable, .select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single{
+        min-height: 47px;
+    }
+
+    /* select2 custom */
+/*
+
+    .select2-selection--multiple{
+        overflow: hidden !important;
+        height: auto !important;
+    }
+    .select2-container .select2-selection--single {
+        box-sizing: border-box;
+        cursor: pointer;
+        display: block;
+        height: 36px;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+    .select2-container--default .select2-selection--single {
+        background-color: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: #444;
+        line-height: 34px;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        height: 36px;
+        position: absolute;
+        top: 1px;
+        right: 5px;
+        width: 20px;
+    }
+
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        display: block;
+        padding-left: 15px;
+        padding-right: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__placeholder {
+        color: darkgray;
+        opacity: 0.9;
+        display:flex;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__clear {
+        cursor: pointer;
+        float: right;
+        font-weight: bold;
+        height: 34px;
+        margin-right: 26px;
+        padding-right: 0px;
+    }
+
+    .select2-selection__rendered {
+        line-height: 31px !important;
+    }
+    .select2-container .select2-selection--single {
+        height: 35px !important;
+    }
+    .select2-selection__arrow {
+        height: 34px !important;
+    }*/
+    
+
+    .navbar1{
+        /*background: rgba(0,0,0,0.1);*/
+    }
+
+    .navbar2{
+        /*background: rgba(0,0,0,0.1);  */
+    }
+
+    
+    @media screen and (max-width: 600px) {
+        .navbar1{
+        ``top:-3px;
+        }
+
+        .navbar2{
+            top:71px;
+        }
+    }
+
+    #map{
+        position: absolute;
+        top:0px;
+        width: 100%;
+        height: -moz-calc(100% - (20px + 30px));
+        height: -webkit-calc(100% - (20px + 30px));
+        height: calc(100% - (20px + 30px));
+        display:block;
+        z-index: 399;
+    }
+
+    div.leaflet-top.leaflet-left{
+        width:100%;
+    }
+
+    .input-group-text{
+        background-color:#FFFFFF;
+        height:48px;
+    }
+
+    /*.select2-selection__rendered {
+        line-height: 48px !important;
+    }
+    .select2-container .select2-selection--single {
+        height: 48px !important;
+    }
+    .select2-selection__arrow {
+        height: 48px !important;
+    }*/
+
+    .mt-l{
+        margin-top: -10px;
+    }
+
+    ul.navbar-custom{
+        list-style:none;
+        overflow: scroll;
+    }
+
+    ul.navbar-custom li{
+        display: inline-block;
+        background-color:#FFFFFF;
+        height:45px;
+    }
+
+
+    .btn.btn-navbar {
+        background-color: white;
+        margin-left: 12px;
+        height: 36px;
+        border-radius: 10px;
+        box-shadow: 0 1px 2px rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+        color: steelblue;
+        padding: 7px;
+    }
+    
+    @media only screen and (max-width: 960px) {
+      .mt-l{
+        margin-top: 0px;
+    }
+    }
